@@ -14,6 +14,6 @@ After hand detection and tracking, this model is passed over the dataset. Consid
 The label with the highest probability is recognized to be the predicted label and is displayed as text in the OpenCV feed. The recognized letters and words are converted into the corresponding speech using the pyttsx3 library.
 
 # Web application Integration
-A web application was created using flask. This creates a user-friendly interface where users can be able to access the sign language translation system easily. The web application was linked with system in the back-end and with a click of a button, the system will start running and display an OpenCV window.
+A web application is created using flask. This creates a user-friendly interface where users can be able to access the sign language translation system easily. The web application is linked with system in the back-end and with a click of a button, the system will start running and display an OpenCV window.
 
 ![Web Application](https://github.com/SamuelMaiyo/sign-language-detection-web-app/blob/3daa66dd2b6cb0d5346385194baec99f3b8a8076/Screenshots/web%20app.PNG)
