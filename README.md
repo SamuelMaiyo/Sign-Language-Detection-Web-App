@@ -4,6 +4,8 @@ This is simple web app that allows sign detection and translation to text and to
 # Hand Detection and Tracking
 Mediapipe is used to track the key points on the human hand. This model precisely localizes 21 3D hand-knuckle coordinates i.e., x, y, z-axis, inside the detected hand regions.
 
+![Sign Language extraction](https://github.com/SamuelMaiyo/sign-language-detection-web-app/blob/8f4d4ccebda39e10160840d3d58501b3713b02c5/Screenshots/OpenCV%20sign%20detection.PNG)
+
 # Sign Extraction
 After hand detection and tracking, this model is passed over the dataset. Considering the American Sign Language dataset, we have a to z alphabets. The detection model is passed over every alphabet directory containing images. The model compares the obtained landmark points with all the letters of the alphabet and determines the one with the highest probability. Once the model extracts the feature and determines the alphabet with the highest probability, the landmarks turn green
 
