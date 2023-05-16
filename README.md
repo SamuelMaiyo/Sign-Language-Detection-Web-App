@@ -1,7 +1,7 @@
 # sign-language-detection-web-app
 This is simple web app that allows sign detection and translation to text and to speech at the click of a button.
 
-#Hand Detection and Tracking
+# Hand Detection and Tracking
 Mediapipe is used to track the key points on the human hand. This model precisely localizes 21 3D hand-knuckle coordinates i.e., x, y, z-axis, inside the detected hand regions.
 
 # Sign Extraction
